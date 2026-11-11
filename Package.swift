@@ -92,8 +92,4 @@ let package = Package(
                 .define("YYJSON_DISABLE_UTILS", .when(traits: ["noUtilities"])),
                 .define("YYJSON_DISABLE_FAST_FP_CONV", .when(traits: ["noFastFloatingPoint"])),
                 .define("YYJSON_DISABLE_NON_STANDARD", .when(traits: ["strictStandardJSON"])),
-                .define("YYJSON_DISABLE_UTF8_VALIDATION", .when(traits: ["noUTF8Validation"])),
-            ]
-        ),
-    ]
-)
+                .define("YYJSON_DISABLE_UTF8_VALIDATION", .when(traits: ["noUTF8Validation"])
